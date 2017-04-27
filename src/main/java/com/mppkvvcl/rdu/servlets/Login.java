@@ -9,7 +9,7 @@ import javax.servlet.http.HttpSession;
 
 import com.mppkvvcl.rdu.bean.LoginBean;
 import com.mppkvvcl.rdu.dao.LoginDAO;
-
+/**  ashish kumar tiwari **/
 /**
  * Servlet implementation class Login
  */
@@ -20,7 +20,7 @@ public class Login extends HttpServlet {
      * @see HttpServlet#HttpServlet()
      */
     public Login() {
-        super();
+        super(1);
         // TODO Auto-generated constructor stub
     }
 
