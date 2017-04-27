@@ -1,0 +1,51 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AddDevice</servlet-name>
+  	<display-name>AddDevice</display-name>
+  	<description></description>
+  	<servlet-class>com.mppkvvcl.rdu.servlets.AddDevice</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddConsumer</servlet-name>
+  	<display-name>AddConsumer</display-name>
+  	<description></description>
+  	<servlet-class>com.mppkvvcl.rdu.servlets.AddConsumer</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddTabResponse</servlet-name>
+  	<display-name>AddTabResponse</display-name>
+  	<description></description>
+  	<servlet-class>com.mppkvvcl.rdu.servlets.AddTabResponse</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Login</servlet-name>
+  	<display-name>Login</display-name>
+  	<description></description>
+  	<servlet-class>com.mppkvvcl.rdu.servlets.Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AddDevice</servlet-name>
+  	<url-pattern>/AddDevice</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddConsumer</servlet-name>
+  	<url-pattern>/AddConsumer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddTabResponse</servlet-name>
+  	<url-pattern>/AddTabResponse</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+ 
+
+</web-app>
